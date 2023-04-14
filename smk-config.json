@@ -1,0 +1,932 @@
+{
+    "name": "req97051",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -124.76074218750004,
+                51.876490970614775
+            ],
+            "extent": [
+                -133.30810546875003,
+                46.800059446787316,
+                -116.21337890625001,
+                56.43820369358167
+            ],
+            "zoom": 6
+        },
+        "esriApiKey": "AAPKbc96588c6fed425999774bd039ee8351Y6VGzAn-djg9Z936q9KbH0aCi01zLC5aAEsVajLsMed89xSV-s_gVJxxKYXO-0aI",
+        "baseMap": "Topographic"
+    },
+    "layers": [
+        {
+            "type": "wms",
+            "id": "pub-whse-forest-tenure-fsp-fdu-poly-spg--1417",
+            "title": "Forest Development Units ( 1417 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "fsp-id",
+                    "name": "FSP_ID",
+                    "title": "FSP ID",
+                    "visible": true
+                },
+                {
+                    "id": "fdu-id",
+                    "name": "FDU_ID",
+                    "title": "FDU ID",
+                    "visible": true
+                },
+                {
+                    "id": "fsp-amendment-number",
+                    "name": "FSP_AMENDMENT_NUMBER",
+                    "title": "FSP AMENDMENT NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "sp-update-amendment-number",
+                    "name": "SP_UPDATE_AMENDMENT_NUMBER",
+                    "title": "SP UPDATE AMENDMENT NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "plan-name",
+                    "name": "PLAN_NAME",
+                    "title": "PLAN NAME",
+                    "visible": true
+                },
+                {
+                    "id": "fdu-name",
+                    "name": "FDU_NAME",
+                    "title": "FDU NAME",
+                    "visible": true
+                },
+                {
+                    "id": "plan-decision-date",
+                    "name": "PLAN_DECISION_DATE",
+                    "title": "PLAN DECISION DATE",
+                    "visible": true
+                },
+                {
+                    "id": "plan-start-date",
+                    "name": "PLAN_START_DATE",
+                    "title": "PLAN START DATE",
+                    "visible": true
+                },
+                {
+                    "id": "plan-end-date",
+                    "name": "PLAN_END_DATE",
+                    "title": "PLAN END DATE",
+                    "visible": true
+                },
+                {
+                    "id": "amendment-approval-date",
+                    "name": "AMENDMENT_APPROVAL_DATE",
+                    "title": "AMENDMENT APPROVAL DATE",
+                    "visible": true
+                },
+                {
+                    "id": "map-label",
+                    "name": "MAP_LABEL",
+                    "title": "MAP LABEL",
+                    "visible": true
+                },
+                {
+                    "id": "current-amendment-number",
+                    "name": "CURRENT_AMENDMENT_NUMBER",
+                    "title": "CURRENT AMENDMENT NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "life-cycle-status-code",
+                    "name": "LIFE_CYCLE_STATUS_CODE",
+                    "title": "LIFE CYCLE STATUS CODE",
+                    "visible": true
+                },
+                {
+                    "id": "licence1",
+                    "name": "LICENCE1",
+                    "title": "LICENCE1",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code1",
+                    "name": "FILE_TYPE_CODE1",
+                    "title": "FILE TYPE CODE1",
+                    "visible": true
+                },
+                {
+                    "id": "licence2",
+                    "name": "LICENCE2",
+                    "title": "LICENCE2",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code2",
+                    "name": "FILE_TYPE_CODE2",
+                    "title": "FILE TYPE CODE2",
+                    "visible": true
+                },
+                {
+                    "id": "licence3",
+                    "name": "LICENCE3",
+                    "title": "LICENCE3",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code3",
+                    "name": "FILE_TYPE_CODE3",
+                    "title": "FILE TYPE CODE3",
+                    "visible": true
+                },
+                {
+                    "id": "licence4",
+                    "name": "LICENCE4",
+                    "title": "LICENCE4",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code4",
+                    "name": "FILE_TYPE_CODE4",
+                    "title": "FILE TYPE CODE4",
+                    "visible": true
+                },
+                {
+                    "id": "licence5",
+                    "name": "LICENCE5",
+                    "title": "LICENCE5",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code5",
+                    "name": "FILE_TYPE_CODE5",
+                    "title": "FILE TYPE CODE5",
+                    "visible": true
+                },
+                {
+                    "id": "more-licence-ind",
+                    "name": "MORE_LICENCE_IND",
+                    "title": "MORE LICENCE IND",
+                    "visible": true
+                },
+                {
+                    "id": "client-number1",
+                    "name": "CLIENT_NUMBER1",
+                    "title": "CLIENT NUMBER1",
+                    "visible": true
+                },
+                {
+                    "id": "client-name1",
+                    "name": "CLIENT_NAME1",
+                    "title": "CLIENT NAME1",
+                    "visible": true
+                },
+                {
+                    "id": "client-number2",
+                    "name": "CLIENT_NUMBER2",
+                    "title": "CLIENT NUMBER2",
+                    "visible": true
+                },
+                {
+                    "id": "client-name2",
+                    "name": "CLIENT_NAME2",
+                    "title": "CLIENT NAME2",
+                    "visible": true
+                },
+                {
+                    "id": "client-number3",
+                    "name": "CLIENT_NUMBER3",
+                    "title": "CLIENT NUMBER3",
+                    "visible": true
+                },
+                {
+                    "id": "client-name3",
+                    "name": "CLIENT_NAME3",
+                    "title": "CLIENT NAME3",
+                    "visible": true
+                },
+                {
+                    "id": "client-number4",
+                    "name": "CLIENT_NUMBER4",
+                    "title": "CLIENT NUMBER4",
+                    "visible": true
+                },
+                {
+                    "id": "client-name4",
+                    "name": "CLIENT_NAME4",
+                    "title": "CLIENT NAME4",
+                    "visible": true
+                },
+                {
+                    "id": "client-number5",
+                    "name": "CLIENT_NUMBER5",
+                    "title": "CLIENT NUMBER5",
+                    "visible": true
+                },
+                {
+                    "id": "client-name5",
+                    "name": "CLIENT_NAME5",
+                    "title": "CLIENT NAME5",
+                    "visible": true
+                },
+                {
+                    "id": "more-client-ind",
+                    "name": "MORE_CLIENT_IND",
+                    "title": "MORE CLIENT IND",
+                    "visible": true
+                },
+                {
+                    "id": "amendment-updated-geometry-ind",
+                    "name": "AMENDMENT_UPDATED_GEOMETRY_IND",
+                    "title": "AMENDMENT UPDATED GEOMETRY IND",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area",
+                    "name": "FEATURE_AREA",
+                    "title": "FEATURE AREA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-perimeter",
+                    "name": "FEATURE_PERIMETER",
+                    "title": "FEATURE PERIMETER",
+                    "visible": true
+                },
+                {
+                    "id": "feature-class-skey",
+                    "name": "FEATURE_CLASS_SKEY",
+                    "title": "FEATURE CLASS SKEY",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_FOREST_TENURE.FSP_FDU_POLY_SPG",
+            "styleName": "1417"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 9006,
+            "title": "Snowmobile Areas In Parks - Cariboo Region - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 1000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FCODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "DESCRIPTION",
+                    "title": "Description",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Feature Length M",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "9006",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":9006,\"minScale\":1000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"REG_HUMAN_CULTURAL_ECONOMIC.PARKS_SNOWMOBILE_CAR_POLY\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,255,115,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[110,110,110,255],\"width\":0}},\"label\":\"Snowmobile Areas In Parks Cariboo Region\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/f8fab2b4-2a8d-43fd-9c8b-2fe67149248f"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 5701,
+            "title": "Special Protection Areas - All - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 6000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FEATURE_ID",
+                    "title": "Feature ID",
+                    "visible": true
+                },
+                {
+                    "name": "FOREST_FILE_ID",
+                    "title": "Forest File ID",
+                    "visible": false
+                },
+                {
+                    "name": "DESIGNATED_AREA",
+                    "title": "Designated Area",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "OIC_YEAR",
+                    "title": "OIC Year",
+                    "visible": false
+                },
+                {
+                    "name": "OIC_NUMBER",
+                    "title": "OIC Number",
+                    "visible": false
+                },
+                {
+                    "name": "PROTECTED_AREA_STRATEGY",
+                    "title": "Protected Area Strategy",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_BLOCK_ID",
+                    "title": "MAP_BLOCK_ID",
+                    "visible": false
+                },
+                {
+                    "name": "PROTECTED_AREA_NAME",
+                    "title": "Protected Area Name",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_AREA_TYPE",
+                    "title": "Protected Area Type",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_AREA_STATUS",
+                    "title": "Protected Area Status",
+                    "visible": true
+                },
+                {
+                    "name": "AREA_SIZE",
+                    "title": "AREA_SIZE",
+                    "visible": false
+                },
+                {
+                    "name": "EFFECTIVE_DATE",
+                    "title": "Effective Date",
+                    "visible": false
+                },
+                {
+                    "name": "RETIREMENT_DATE",
+                    "title": "Retirement Date",
+                    "visible": true
+                },
+                {
+                    "name": "COMMENTS",
+                    "title": "COMMENTS",
+                    "visible": false
+                },
+                {
+                    "name": "WHO_UPDATED",
+                    "title": "WHO_UPDATED",
+                    "visible": false
+                },
+                {
+                    "name": "WHEN_UPDATED",
+                    "title": "WHEN_UPDATED",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_CLASS_SKEY",
+                    "title": "FEATURE_CLASS_SKEY",
+                    "visible": false
+                },
+                {
+                    "name": "OBJECT_VERSION_SKEY",
+                    "title": "Object Version SKEY",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Area Square Meters",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Perimeter Meters",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "5701",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":5701,\"minScale\":6000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_ADMIN_BOUNDARIES.FADM_SPECIAL_PROTECTION_AREA\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,153,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[52,52,52,255],\"width\":0}},\"label\":\"\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/f23f2f3b-c5c1-4cee-a446-c84c53e1d4b6"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-water-management-ssl-snow-asws-stns-sp--522",
+            "title": "Automated Snow Weather Station Locations ( 522 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "snow-asws-stn-id",
+                    "name": "SNOW_ASWS_STN_ID",
+                    "title": "SNOW ASWS STN ID",
+                    "visible": true
+                },
+                {
+                    "id": "location-id",
+                    "name": "LOCATION_ID",
+                    "title": "LOCATION ID",
+                    "visible": true
+                },
+                {
+                    "id": "location-name",
+                    "name": "LOCATION_NAME",
+                    "title": "LOCATION NAME",
+                    "visible": true
+                },
+                {
+                    "id": "elevation",
+                    "name": "ELEVATION",
+                    "title": "ELEVATION",
+                    "visible": true
+                },
+                {
+                    "id": "status",
+                    "name": "STATUS",
+                    "title": "STATUS",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "shape",
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WATER_MANAGEMENT.SSL_SNOW_ASWS_STNS_SP",
+            "styleName": "522"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 875,
+            "title": "Northern Mountain Sucker (MSU)",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 1000001,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FISH_OBSERVATION_POINT_ID",
+                    "title": "FISH_OBSERVATION_POINT_ID",
+                    "visible": true
+                },
+                {
+                    "name": "WBODY_ID",
+                    "title": "WBODY_ID",
+                    "visible": true
+                },
+                {
+                    "name": "NEW_WATERSHED_CODE",
+                    "title": "NEW_WATERSHED_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "GAZETTED_NAME",
+                    "title": "GAZETTED_NAME",
+                    "visible": true
+                },
+                {
+                    "name": "SPECIES_CODE",
+                    "title": "SPECIES_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "SPECIES_NAME",
+                    "title": "SPECIES_NAME",
+                    "visible": true
+                },
+                {
+                    "name": "SOURCE",
+                    "title": "SOURCE",
+                    "visible": true
+                },
+                {
+                    "name": "SOURCE_REF",
+                    "title": "SOURCE_REF",
+                    "visible": true
+                },
+                {
+                    "name": "OBSERVATION_DATE",
+                    "title": "OBSERVATION_DATE",
+                    "visible": true
+                },
+                {
+                    "name": "AGENCY_ID",
+                    "title": "AGENCY_ID",
+                    "visible": true
+                },
+                {
+                    "name": "AGENCY_NAME",
+                    "title": "AGENCY_NAME",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "UTM_ZONE",
+                    "title": "UTM_ZONE",
+                    "visible": true
+                },
+                {
+                    "name": "UTM_EASTING",
+                    "title": "UTM_EASTING",
+                    "visible": true
+                },
+                {
+                    "name": "UTM_NORTHING",
+                    "title": "UTM_NORTHING",
+                    "visible": true
+                },
+                {
+                    "name": "POINT_TYPE_CODE",
+                    "title": "POINT_TYPE_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "ACTIVITY_CODE",
+                    "title": "ACTIVITY_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "ACTIVITY",
+                    "title": "ACTIVITY",
+                    "visible": true
+                },
+                {
+                    "name": "LIFE_STAGE_CODE",
+                    "title": "LIFE_STAGE_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "LIFE_STAGE",
+                    "title": "LIFE_STAGE",
+                    "visible": true
+                },
+                {
+                    "name": "WATERBODY_IDENTIFIER",
+                    "title": "WATERBODY_IDENTIFIER",
+                    "visible": true
+                },
+                {
+                    "name": "WATERBODY_TYPE",
+                    "title": "WATERBODY_TYPE",
+                    "visible": true
+                },
+                {
+                    "name": "TRIMMED_WATERSHED_CODE",
+                    "title": "TRIMMED_WATERSHED_CODE",
+                    "visible": true
+                },
+                {
+                    "name": "ACAT_REPORT_URL",
+                    "title": "ACAT_REPORT_URL",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "875",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":875,\"minScale\":1000001,\"maxScale\":0,\"definitionExpression\":\"SPECIES_CODE='MSU'  and (FEATURE_CODE = 'FE85650000')\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_FISH.FISS_FISH_OBSRVTN_PNT_SP\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriPMS\",\"url\":\"d26ff1a2346f9a8d46809c0ffac18b10\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAMBJREFUGJVjYYAATiFz/+ivnDy6DH8ZvjN8vr//54VjOxkYGBhYGBgYhBls4xe/ExD1ZIABPrFcdmbJ/p9n19awMFhF1DMgSzIwMDAwMXP9FJMrZdD2PMXCzsHj8pMBC2BhZmMQEvJk+cnMxIdNnoGBgUGIgYWPhf3371s/ORiksSn4+vfbTZafrz/0MLBzWjCwcXGiyr6//vPYtz4WhqvrtzEwhEayi/LV/WRi0WFg/vuN/ffvgz+ff8tjYNj6BQAG4DhA4DXGpgAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":6,\"height\":6,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"label\":\"\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/aca81811-4b08-4382-9af7-204e0b9d2448"
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "icon": "menu",
+            "position": "toolbar",
+            "type": "list-menu",
+            "enabled": true,
+            "title": "req97051"
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "position": "list-menu",
+            "icon": "help",
+            "title": "About req97051",
+            "content": "<p>Welcome to SMK!</p><p>Embedded Map showing DataBC and WMS Layers</p>",
+            "type": "about",
+            "enabled": true
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "layers",
+            "title": "Layers",
+            "command": {
+                "allVisibility": true,
+                "filter": true,
+                "legend": true
+            },
+            "glyph": {
+                "visible": "visibility",
+                "hidden": "visibility_off"
+            },
+            "type": "layers",
+            "enabled": true
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "map",
+            "title": "Base Maps",
+            "mapStyle": {
+                "width": "110px",
+                "height": "110px"
+            },
+            "type": "baseMaps",
+            "enabled": true
+        },
+        {
+            "order": 5,
+            "position": "list-menu",
+            "icon": "info_outline",
+            "title": "Identify Features",
+            "command": {
+                "select": true,
+                "radius": false,
+                "radiusUnit": false,
+                "nearBy": true
+            },
+            "radius": 5,
+            "radiusUnit": "px",
+            "type": "identify",
+            "enabled": true,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "order": 2,
+            "position": "toolbar",
+            "icon": "search",
+            "title": "Search for Location",
+            "showPanel": true,
+            "showLocation": true,
+            "command": {
+                "identify": true,
+                "measure": true,
+                "directions": true
+            },
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": true
+        },
+        {
+            "order": 6,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "straighten",
+            "title": "Measurement",
+            "type": "measure",
+            "enabled": true
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "scale",
+            "enabled": true
+        },
+        {
+            "type": "minimap",
+            "enabled": true
+        },
+        {
+            "type": "directions",
+            "enabled": false
+        },
+        {
+            "showHeader": false,
+            "type": "location",
+            "enabled": true
+        },
+        {
+            "type": "select",
+            "enabled": false
+        },
+        {
+            "type": "geomark",
+            "geomarkService": {
+                "url": "https://apps.gov.bc.ca/pub/geomark"
+            },
+            "position": "list-menu",
+            "enabled": false
+        },
+        {
+            "title": "Version Info",
+            "position": "list-menu",
+            "order": 99,
+            "icon": "build",
+            "type": "version",
+            "enabled": true
+        },
+        {
+            "type": "legend",
+            "enabled": true
+        }
+    ],
+    "version": "1.1.9",
+    "createdBy": "Sanjay",
+    "createdDate": "2023-04-14T15:57:26.569Z"
+}

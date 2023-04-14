@@ -1,0 +1,13 @@
+{
+    "name": "req97051",
+    "version": "0.0.1",
+    "description": "Embedded Map showing DataBC and WMS Layers",
+    "author": "Sanjay",
+    "dependencies": {
+        "@bcgov/smk": "1.1.9",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}
