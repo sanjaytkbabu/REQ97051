@@ -16,9 +16,13 @@ Embedded map that displays the following layers:
 
 ## How to run:
 
-Open up a Terminal and run the following commands
+Open up a Terminal and run the following commands: </br>
 1. git clone https://github.com/sanjaytkbabu/REQ97051.git </br>
 2. cd REQ97051 && npm i && npm run view </br>
 
+## How to edit:
 
+Open up a Terminal and run the following commands: </br>
+1. npm install @bcgov/smk </br>
+2. smk edit -p 8080
 
