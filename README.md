@@ -23,6 +23,6 @@ Open up a Terminal and run the following commands: </br>
 ## How to edit:
 
 Open up a Terminal and run the following commands: </br>
-1. npm install @bcgov/smk </br>
+1. npm install --global @bcgov/smk-cli </br>
 2. smk edit -p 8080
 
